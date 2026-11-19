@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyndi Williams | Selling Sur Real Estate Co. | Baja California Sur</title>
+<meta name="description" content="Cyndi Williams, Selling Sur Real Estate Co. Homes, land and developments in Cerritos, Pescadero, Todos Santos and Cabo San Lucas, Baja California Sur.">
+<script src="config.js"></script>
+<style>
+  :root{
+    --ink:#1b1813; --cream:#faf6ec; --paper:#fffdf7; --gold:#a9832f; --gold2:#c9a959;
+    --line:#e0d5ba; --muted:#6f675a; --sold:#7a1f1f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--cream);color:var(--ink);font-family:Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5}
+  h1,h2,h3,.serif{font-family:Georgia,'Times New Roman',serif}
+  a{color:var(--gold)}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+  /* top bar */
+  .topbar{background:#111;color:#e9e2cf;font-size:13px}
+  .topbar .wrap{display:flex;justify-content:space-between;gap:10px;padding:7px 16px;flex-wrap:wrap}
+  .topbar a{color:#e9e2cf;text-decoration:none}
+  /* masthead */
+  .masthead{background:var(--paper);border-bottom:3px double var(--gold);text-align:center;padding:26px 10px 18px}
+  .masthead .name{font-family:Georgia,serif;font-size:44px;letter-spacing:6px;margin:0;color:var(--ink)}
+  .masthead .brokerage{letter-spacing:4px;font-size:13px;color:var(--gold);text-transform:uppercase;margin-top:6px}
+  .masthead .tag{font-style:italic;font-family:Georgia,serif;color:var(--muted);margin-top:8px}
+  nav.main{display:flex;justify-content:center;gap:26px;padding:11px 0 2px;flex-wrap:wrap}
+  nav.main a{color:var(--ink);text-decoration:none;font-size:13px;letter-spacing:2px;text-transform:uppercase}
+  nav.main a:hover{color:var(--gold)}
+  /* hero */
+  .hero{position:relative;background:#222}
+  .hero img{width:100%;height:440px;object-fit:cover;display:block;opacity:.92}
+  .hero .veil{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,8,4,.72),rgba(10,8,4,.05) 55%)}
+  .hero .htext{position:absolute;left:0;right:0;bottom:26px;text-align:center;color:#fff;padding:0 16px}
+  .hero h1{font-size:40px;margin:0 0 6px;font-weight:normal;letter-spacing:1px}
+  .hero p{margin:0;font-size:17px;color:#f0e7cf}
+  .hero .cta{display:inline-block;margin-top:14px;background:var(--gold);color:#fff;padding:11px 26px;text-decoration:none;letter-spacing:2px;font-size:13px;text-transform:uppercase;border:1px solid var(--gold2)}
+  /* sections */
+  section{padding:34px 0 6px}
+  .sec-head{text-align:center;margin-bottom:20px}
+  .sec-head h2{font-size:28px;margin:0;font-weight:normal;letter-spacing:1px}
+  .sec-head .rule{width:74px;height:2px;background:var(--gold);margin:10px auto 0}
+  .sec-head p{color:var(--muted);max-width:640px;margin:10px auto 0}
+  /* filters */
+  .filters{background:var(--paper);border:1px solid var(--line);padding:14px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+  .filters label{font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);display:block}
+  .filters select,.filters input{padding:9px;font-size:15px;border:1px solid var(--line);background:#fff;min-width:150px}
+  .count{text-align:center;color:var(--muted);font-size:14px;margin:12px 0 0}
+  /* cards */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px;padding:18px 0 8px}
+  .card{background:var(--paper);border:1px solid var(--line);display:flex;flex-direction:column}
+  .card .ph{position:relative}
+  .card .ph img{width:100%;height:210px;object-fit:cover;display:block}
+  .badge{position:absolute;top:10px;left:10px;background:var(--gold);color:#fff;font-size:11px;letter-spacing:2px;padding:4px 10px;text-transform:uppercase}
+  .badge.sold{background:var(--sold)}
+  .badge.pend{background:#5a4a1f}
+  .card .bd{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+  .card h3{margin:0;font-size:20px;font-weight:normal}
+  .card .price{font-family:Georgia,serif;font-size:22px;color:var(--gold)}
+  .card .specs{color:var(--muted);font-size:14px}
+  .card .mls{color:var(--muted);font-size:12px;letter-spacing:1px}
+  .card .row{margin-top:auto;display:flex;gap:8px;padding-top:8px}
+  .btn{flex:1;text-align:center;padding:10px 8px;text-decoration:none;font-size:13px;letter-spacing:1px;text-transform:uppercase;cursor:pointer;border:1px solid var(--gold);background:#fff;color:var(--gold)}
+  .btn.solid{background:var(--gold);color:#fff}
+  .btn.dark{border-color:#333;color:#333}
+  /* about + life */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+  @media(max-width:760px){.cols{grid-template-columns:1fr}.hero img{height:320px}.hero h1{font-size:30px}.masthead .name{font-size:32px}}
+  .panel{background:var(--paper);border:1px solid var(--line);padding:22px}
+  .panel h3{margin-top:0;font-weight:normal;font-size:22px}
+  .panel img{width:100%;height:250px;object-fit:cover;display:block;margin-bottom:14px}
+  /* contact */
+  .contact{background:#141109;color:#efe8d2;margin-top:36px;padding:36px 0}
+  .contact h2{color:#fff;font-weight:normal;text-align:center;margin:0 0 6px;font-size:28px}
+  .contact .sub{text-align:center;color:#cbbd93;margin-bottom:20px}
+  .contact .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;text-align:center}
+  .contact a{color:var(--gold2)}
+  .wa{display:inline-block;background:#1faa55;color:#fff !important;padding:12px 24px;text-decoration:none;letter-spacing:1px;text-transform:uppercase;font-size:13px;margin-top:8px}
+  footer{padding:22px 0 30px;text-align:center;color:var(--muted);font-size:13px}
+  footer a{color:var(--muted)}
+  /* modal */
+  .scrim{position:fixed;inset:0;background:rgba(12,10,6,.66);display:none;align-items:flex-start;justify-content:center;overflow:auto;padding:22px 12px;z-index:50}
+  .scrim.open{display:flex}
+  .modal{background:var(--paper);max-width:760px;width:100%;border:1px solid var(--gold);padding:0 0 20px}
+  .modal img.heroimg{width:100%;height:330px;object-fit:cover;display:block}
+  .modal .in{padding:18px 22px 0}
+  .modal h3{margin:0;font-size:26px;font-weight:normal}
+  .modal .price{font-family:Georgia,serif;font-size:24px;color:var(--gold)}
+  .spec-table{width:100%;border-collapse:collapse;margin:14px 0}
+  .spec-table td{border-bottom:1px solid var(--line);padding:7px 4px;font-size:14px}
+  .spec-table td:first-child{color:var(--muted);width:150px;letter-spacing:1px;text-transform:uppercase;font-size:12px}
+  .desc{white-space:pre-wrap;font-size:15px}
+  .x{float:right;background:none;border:none;font-size:24px;cursor:pointer;color:var(--muted);padding:10px 14px}
+  .form label{display:block;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin:12px 0 4px}
+  .form input,.form select,.form textarea{width:100%;padding:10px;font-size:15px;border:1px solid var(--line);background:#fff}
+  .hidden{display:none !important}
+  .adminbar{background:#111;color:#efe8d2;text-align:center;padding:9px;font-size:14px}
+  .adminbar button{margin-left:12px}
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap">
+  <span>Selling Sur Real Estate Co. &nbsp;|&nbsp; Cabo San Lucas &amp; Los Cerritos, Baja California Sur</span>
+  <span><a href="tel:+526241588650">+52 624 158 8650</a> &nbsp;|&nbsp; <a href="mailto:cyndi@sellingsur.com">cyndi@sellingsur.com</a></span>
+</div></div>
+
+<header class="masthead">
+  <div class="wrap">
+    <p class="name">CYNDI WILLIAMS</p>
+    <div class="brokerage">Selling Sur Real Estate Co.</div>
+    <div class="tag">&ldquo;Because your freedom is priceless.&rdquo;</div>
+    <nav class="main">
+      <a href="#featured">Featured</a>
+      <a href="#listings">Listings</a>
+      <a href="#about">About Cyndi</a>
+      <a href="#life">The Life</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <img id="heroImg" alt="Cerritos Beach, Baja California Sur">
+  <div class="veil"></div>
+  <div class="htext">
+    <h1>Find your place in Baja</h1>
+    <p>Homes, beach lots and developments from Cerritos to Cabo San Lucas, listed by the Cerritos expert.</p>
+    <a class="cta" href="#listings">See the listings</a>
+  </div>
+</div>
+
+<div id="adminBar" class="adminbar hidden">You are logged in as <b id="adminName"></b>. Editing is on: use the Edit button on any listing. <button id="logoutBtn" type="button">Log out</button></div>
+
+<section id="featured"><div class="wrap">
+  <div class="sec-head"><h2>Featured Listings</h2><div class="rule"></div></div>
+  <div class="grid" id="featuredGrid"></div>
+</div></section>
+
+<section id="listings"><div class="wrap">
+  <div class="sec-head"><h2>All Listings</h2><div class="rule"></div>
+  <p>Every active listing in Cyndi's personal book: 34 properties across the Pacific side of southern Baja.</p></div>
+  <div class="filters">
+    <div><label>Area</label><select id="fArea"><option value="">All areas</option></select></div>
+    <div><label>Max price</label><select id="fPrice">
+      <option value="">Any price</option><option value="100000">Up to $100,000</option>
+      <option value="300000">Up to $300,000</option><option value="500000">Up to $500,000</option>
+      <option value="1000000">Up to $1,000,000</option></select></div>
+    <div><label>Bedrooms</label><select id="fBeds">
+      <option value="">Any</option><option value="1">1+</option><option value="2">2+</option>
+      <option value="3">3+</option><option value="4">4+</option></select></div>
+    <div><label>Sort</label><select id="fSort">
+      <option value="feat">Featured first</option><option value="lo">Price: low to high</option>
+      <option value="hi">Price: high to low</option></select></div>
+  </div>
+  <p class="count" id="countLine"></p>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<section id="about"><div class="wrap">
+  <div class="sec-head"><h2>About Cyndi</h2><div class="rule"></div></div>
+  <div class="cols">
+    <div class="panel">
+      <h3>Thirty seven years in, still the one they call</h3>
+      <p>Cyndi Williams has been selling real estate for more than 37 years. She ran her own commercial brokerage in California's East Bay, owned a hotel, a restaurant and half of a real estate company in Cabo, and spent a decade as Broker Owner of Cabo Premiere before joining Selling Sur Real Estate Co.</p>
+      <p>She is the Cerritos expert: her personal book is centred on Cerritos, Pescadero and Todos Santos, the Pacific side she has called home since 2007. Owners from the US and Canada trust her with their Baja homes because she treats every listing like it is her own.</p>
+      <p>Her rule is simple: <i>&ldquo;Don't dream it, do it. Call me to make it happen.&rdquo;</i></p>
+    </div>
+    <div class="panel" id="life">
+      <img id="lifeImg" alt="Baja California Sur coastline">
+      <h3>The life comes first</h3>
+      <p>People do not buy square feet down here. They buy mornings on a swimmable beach at Cerritos, coffee as the fishing boats go out at Todos Santos, desert light over the Sierra de la Laguna, and a town where everybody knows their name by the second visit.</p>
+      <p>That is the order on this page too: the place first, the life it gives you second, and the property details after, where they belong.</p>
+    </div>
+  </div>
+</div></section>
+
+<div class="contact" id="contact"><div class="wrap">
+  <h2>Talk to Cyndi</h2>
+  <div class="sub">No pressure and no obligation. Ask about any listing, or about making the move to Baja.</div>
+  <div class="grid2">
+    <div><b>Call or text</b><br><a href="tel:+526241588650">+52 624 158 8650</a><br><a href="tel:+17073882006">US / Canada: 707 388 2006</a></div>
+    <div><b>WhatsApp</b><br><a class="wa" href="https://wa.me/526241588650?text=Hello%20Cyndi%2C%20I%20saw%20your%20website%20and%20I%20have%20a%20question." target="_blank" rel="noopener">Message on WhatsApp</a></div>
+    <div><b>Email and offices</b><br><a href="mailto:cyndi@sellingsur.com">cyndi@sellingsur.com</a><br>Hotel Tesoro, Cabo San Lucas<br>and Los Cerritos</div>
+  </div>
+</div></div>
+
+<footer>
+  <div class="wrap">
+    Cyndi Williams, Broker Associate, Selling Sur Real Estate Co. Listings shown are her active MLS book as of November 2026; prices in USD.<br>
+    Demonstration website by Designs by David. <a href="#" id="adminLink">Admin login</a>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim"><div class="modal" id="modal"></div></div>
+
+<script>
+var LISTINGS = [
+ {
+  "mls": "26-1352",
+  "price": 495000,
+  "title": "La Cachora, The Hotelito, Pacific, Todos Santos, La Cachora, Mountain",
+  "beds": 4,
+  "baths": "4 full baths, 1 half bath",
+  "living": "220 m2 / 2,367.2 sq ft",
+  "lot": "1,988 m2 / 21,398.7 sq ft",
+  "area": "Todos Santos",
+  "community": "La Cachora",
+  "begin": "March 15, 2026",
+  "year": "2007",
+  "style": "Contemporary",
+  "view": "Mountain",
+  "photos": 25,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260317162558160058000000-o.jpg",
+  "desc": "THE ICONIC HOTELITO NOW OFFERED AT $495,000 usd, well below replacement cost, The Hotelito is a rare opportunity to own a piece of Todos Santos history, a boutique property that has been in continuous operation for over 15 years as a bed & breakfast. From the moment you arrive, the Hotelito makes an impression, with its warm, organic, desert-chic interiors, a spacious reception area, and 4 independent guest casitas, each with its own private entrance and terrace. The main residence is a two-story home with a great room, kitchen, 2 bedrooms, and 2 full baths, plus a large outdoor deck. The property also features a community kitchen and dining area, a lovely outdoor pool, and lush, mature gardens. Casa Azul and Casita Verde are fully equipped kitchens, a full bathroom, and have private patios with mountain views. Both are comfortable and easy to maintain. Casa Violeta and Casita Rosa each offer a kitchenette, bathroom, and private terrace, ideal for guests or for longer stays. Located in La Cachora, one of Todos Santos' most desirable neighborhoods, the Hotelito is just 5 minutes from the historic center and the beach. Offered partly furnished, this property is ready to continue as a successful boutique hotel, or to be enjoyed as a unique family compound, with the flexibility to live in the main house and rent the casitas, or to live in one of the casitas and rent the main house. The Hotelito is a rare opportunity to own a piece of Todos Santos history.",
+  "name": "The Hotelito",
+  "featured": true
+ },
+ {
+  "mls": "25-4689",
+  "price": 695000,
+  "title": "Quinta Pacifica La Cachora, Casa Chilicote, Pacific North, Todos Santos, La Cachora",
+  "beds": 3,
+  "baths": "3 full baths, 0 half baths",
+  "living": "442.33 m2 / 4,759.47 sq ft",
+  "lot": "1,473.99 m2",
+  "area": "Pacific North",
+  "community": "Todos Santos",
+  "begin": "October 21, 2025",
+  "year": "2008",
+  "style": "Contemporary",
+  "view": "Mountain",
+  "photos": 40,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20251023010012908999000000-o.jpg",
+  "desc": "Welcome to Casa Chilicote, a contemporary Mexican-style residence in Todos Santos' coveted La Cachora neighborhood. This walled and gated home is ideally located just a short walk from the beach and town, offering both privacy and convenience. The open-concept living area is the heart of the home, with 16-foot ceilings, tall windows, and a log fireplace creating an inviting, sun-filled space. Designer fixtures and recessed lighting add warmth and style. The main-level bedroom includes a luxurious cedar walk-in closet and ensuite bath. The kitchen, featuring polished pulido counters and stainless steel appliances, opens to a shaded terrace with a log fire perfect for al fresco dining. Upstairs, the second bedroom suite opens to a terrace with views over the palm grove toward the Mission church and town plaza. A third bedroom with ensuite bath is tucked off the terrace, ideal for guests or rental use. Outdoor spaces are equally impressive: a lush garden with mature palms, shaded dining and lounging areas, and a rooftop terrace offer multiple options to relax and entertain. The property also has room for a pool or expanded guest accommodations. Casa Chilicote combines comfort, style, and functionality, with a strong rental history and flexible layout for family living, vacation retreats, or investment potential. Experience the relaxed charm of Todos Santos living in a home designed for both elegance and everyday enjoyment. Consider purchasing the entire estate which includes The Hotelito, a boutique hotel, The main residence with guest house and 4 custom home lots. Offered at 4.5 million USD, seller will finance this amazing property. There is absolutely nothing that compares in style, construction and location.",
+  "name": "Quinta Pacifica La Cachora",
+  "featured": false
+ },
+ {
+  "mls": "25-4585",
+  "price": 895950,
+  "title": "Beach Lot 11, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,965.01 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "October 17, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 15,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20261109233606338043000000-o.jpg",
+  "desc": "SELLER FINANCING. Prime half-acre lot just steps from the world-famous Cerritos surf beach. This exceptional property offers direct beach access to one of the only swimmable beaches on the Pacific Ocean, the perfect location to build a sleek elegant design home, boutique resort, or private compound. Set within a small, charming community with a beachfront restaurant, world-class surfing, swimming, ATVing, and endless sunsets, this lot captures the essence of Baja coastal living. Conveniently located only ten minutes from the magical Pueblo Mágico of Todos Santos and forty-five minutes from Cabo San Lucas, it offers the ideal blend of tranquility and accessibility—an extraordinary opportunity in the heart of Cerritos Beach.",
+  "name": "Beach Lot 11",
+  "featured": false
+ },
+ {
+  "mls": "26-3942",
+  "price": 695000,
+  "title": "calle sin nombre, Cerritos Beach lot 10, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,965.01 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "September 16, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 15,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20261109233256247539000000-o.jpg",
+  "desc": "SELLER FINANCING. Prime half-acre lot just steps from the world-famous Cerritos surf beach. This exceptional property offers direct beach access to one of the only swimmable beaches on the Pacific Ocean, the perfect location to build a sleek elegant design home, boutique resort, or private compound. Set within a small, charming community with a beachfront restaurant, world-class surfing, swimming, ATVing, and endless sunsets, this lot captures the essence of Baja coastal living. Conveniently located only ten minutes from the magical Pueblo Mágico of Todos Santos and forty-five minutes from Cabo San Lucas, it offers the ideal blend of tranquility and accessibility--an extraordinary opportunity in the heart of Cerritos Beach.",
+  "name": "Cerritos Beach lot 10",
+  "featured": false
+ },
+ {
+  "mls": "25-4584",
+  "price": 495950,
+  "title": "Beach Lot 9, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,965 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "October 17, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 15,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20261109232753795859000000-o.jpg",
+  "desc": "SELLER FINANCING. Prime half-acre lot just steps from the world-famous Cerritos surf beach. This exceptional property offers direct beach access to one of the only swimmable beaches on the Pacific Ocean, the perfect location to build a sleek elegant design home, boutique resort, or private compound. Set within a small, charming community with a beachfront restaurant, world-class surfing, swimming, ATVing, and endless sunsets, this lot captures the essence of Baja coastal living. Conveniently located only ten minutes from the magical Pueblo Mágico of Todos Santos and forty-five minutes from Cabo San Lucas, it offers the ideal blend of tranquility and accessibility—an extraordinary opportunity in the heart of Cerritos Beach.",
+  "name": "Beach Lot 9",
+  "featured": false
+ },
+ {
+  "mls": "25-4596",
+  "price": 419950,
+  "title": "Beach Lot 8, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,965.01 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "October 16, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 16,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20261109231638186048000000-o.jpg",
+  "desc": "SELLER FINANCING. Prime half-acre lot just steps from the world-famous Cerritos surf beach. This exceptional property offers direct beach access to one of the only swimmable beaches on the Pacific Ocean, the perfect location to build a sleek elegant design home, boutique resort, or private compound. Set within a small, charming community with a beachfront restaurant, world-class surfing, swimming, ATVing, and endless sunsets, this lot captures the essence of Baja coastal living. Conveniently located only ten minutes from the magical Pueblo Mágico of Todos Santos and forty-five minutes from Cabo San Lucas, it offers the ideal blend of tranquility and accessibility—an extraordinary opportunity in the heart of Cerritos Beach.",
+  "name": "Beach Lot 8",
+  "featured": false
+ },
+ {
+  "mls": "25-4595",
+  "price": 349950,
+  "title": "Beach Lot 7, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,965.01 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "October 16, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 16,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20261109231210546115000000-o.jpg",
+  "desc": "SELLER FINANCING! Prime half-acre lot just steps from the world-famous Cerritos surf beach. This exceptional property offers direct beach access to one of the only swimmable beaches on the Pacific Ocean, the perfect location to build a sleek elegant design home, boutique resort, or private compound. Set within a small, charming community with a beachfront restaurant, world-class surfing, swimming, ATVing, and endless sunsets, this lot captures the essence of Baja coastal living. Conveniently located only ten minutes from the magical Pueblo Mágico of Todos Santos and forty-five minutes from Cabo San Lucas, it offers the ideal blend of tranquility and accessibility—an extraordinary opportunity in the heart of Cerritos Beach.",
+  "name": "Beach Lot 7",
+  "featured": false
+ },
+ {
+  "mls": "25-4592",
+  "price": 295000,
+  "title": "Beach Lot 6, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,965.01 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "October 16, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 16,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20261109230421226588000000-o.jpg",
+  "desc": "SELLER FINANCING!Prime half-acre lot just steps from the world-famous Cerritos surf beach. This exceptional property offers direct beach access to one of the only swimmable beaches on the Pacific Ocean, the perfect location to build a sleek elegant design home, boutique resort, or private compound. Set within a small, charming community with a beachfront restaurant, world-class surfing, swimming, ATVing, and endless sunsets, this lot captures the essence of Baja coastal living. Conveniently located only ten minutes from the magical Pueblo Mágico of Todos Santos and forty-five minutes from Cabo San Lucas, it offers the ideal blend of tranquility and accessibility—an extraordinary opportunity in the heart of Cerritos Beach.",
+  "name": "Beach Lot 6",
+  "featured": false
+ },
+ {
+  "mls": "25-4591",
+  "price": 249000,
+  "title": "Beach Lot 5, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,965 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "October 16, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 16,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20261109225525740281000000-o.jpg",
+  "desc": "SELLER FINANCING! Prime half-acre lot just steps from the world-famous Cerritos surf beach. This exceptional property offers direct beach access to one of the only swimmable beaches on the Pacific Ocean, the perfect location to build a sleek elegant design home, boutique resort, or private compound. Set within a small, charming community with a beachfront restaurant, world-class surfing, swimming, ATVing, and endless sunsets, this lot captures the essence of Baja coastal living. Conveniently located only ten minutes from the magical Pueblo Mágico of Todos Santos and forty-five minutes from Cabo San Lucas, it offers the ideal blend of tranquility and accessibility—an extraordinary opportunity in the heart of Cerritos Beach.",
+  "name": "Beach Lot 5",
+  "featured": false
+ },
+ {
+  "mls": "25-4588",
+  "price": 249000,
+  "title": "Beach Lot 4, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,965 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "October 16, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 11,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20261109224743327180000000-o.jpg",
+  "desc": "SELLER FINANCING! Prime half-acre lot just steps from the world-famous Cerritos surf beach. This exceptional property offers direct beach access to one of the only swimmable beaches on the Pacific Ocean, the perfect location to build a sleek elegant design home, boutique resort, or private compound. Set within a small, charming community with a beachfront restaurant, world-class surfing, swimming, ATVing, and endless sunsets, this lot captures the essence of Baja coastal living. Conveniently located only ten minutes from the magical Pueblo Mágico of Todos Santos and forty-five minutes from Cabo San Lucas, it offers the ideal blend of tranquility and accessibility—an extraordinary opportunity in the heart of Cerritos Beach.",
+  "name": "Beach Lot 4",
+  "featured": false
+ },
+ {
+  "mls": "26-4654",
+  "price": 1095000,
+  "title": "Pacific, Casa Luna Dia, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": 4,
+  "baths": "4 full baths, 0 half baths",
+  "living": "374 m2 / 4,024.24 sq ft",
+  "lot": "2,000 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "November 3, 2026",
+  "year": "2021",
+  "style": null,
+  "view": null,
+  "photos": 68,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20261105192827605905000000-o.jpg",
+  "desc": "MORE PHOTOS COMING!!!! Set high above Cerritos, this spacious four-bedroom, four-bath home offers privacy, ocean views, and generous outdoor living on a beautiful 2,000 m² lot. With a full private casita, two guest suites with their own bathrooms, and an exceptionally large primary suite, the layout provides comfortable spaces for both owners and guests. The primary suite sits on the main living level, conveniently located off the kitchen and living room, with easy access to the outdoor entertaining areas. Its generous proportions and private bath create a relaxing retreat, while the separate guest accommodations offer added independence. Outside, a swimming pool, covered gazebo, outdoor dining and lounge areas, and a fire pit make it easy to enjoy Baja's outdoor lifestyle. For the Chef in the family, enjoy the fully equipped chef kitchen with an expansive walk in panty, or immerse yourself in the outdoor kitchen/bar equipped with a flat screen tv to catch all of the games. Connected to electricity and complete with a two-car garage, off street parking for additional toys, RV, or boat, this property offers plenty of room to spread out, garden, or expand. A versatile home with space, privacy, and a welcoming setting above Cerritos. A small concrete skate bowl adds a playful touch. The elevated setting captures ocean, mountain and city views. Connected to electricity and complete with a two-car garage, this property offers plenty of room to spread out, garden, or expand. A versatile home with space, privacy, and a welcoming setting above Cerritos.",
+  "name": "Casa Luna Dia",
+  "featured": true
+ },
+ {
+  "mls": "26-2723",
+  "price": 850000,
+  "title": "calle sin nombre 48, Tesoro Casa Bajalla 48, Cabo San Lucas, CSL-Beach & Marina, Tesoro, Marina",
+  "beds": 2,
+  "baths": "2 full baths, 0 half baths",
+  "living": "170 m2 / 1,829.2 sq ft",
+  "lot": "not shown (condominium)",
+  "area": "CSL-Beach & Marina",
+  "community": "Cabo San Lucas (as shown in the location line",
+  "begin": "June 5, 2026",
+  "year": "1990",
+  "style": null,
+  "view": "Marina",
+  "photos": 43,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260811230227017673000000-o.jpg",
+  "desc": "Not all luxury condos are created equal. This extraordinary end-unit residence at Tesoro Resort stands apart as one of the most unique offerings in Cabo San Lucas. Boasting approximately 1,800 square feet of bright, open living space, this two-bedroom, two-bath condominium features an oversized primary suite, dedicated laundry area, and a spacious floor plan designed to capture the energy and beauty of the marina from nearly every angle. The true showpiece is the spectacular palapa-covered terrace--one of the largest private outdoor living spaces in the marina. Complete with a custom Jacuzzi, this incredible outdoor retreat functions as a second living room, dining area, and entertainment space all in one. From sunrise to sunset, enjoy commanding views of the Cabo San Lucas Marina, the luxury yacht basin, and the impressive collection of mega yachts that call Cabo home. Beyond the marina, sweeping views extend toward Land's End and the Pacific Ocean. Whether you are entertaining friends, enjoying a quiet evening under the palapa, or simply watching the boats come and go below, this residence offers a front-row seat to one of the most vibrant waterfront settings in Baja. Rarely does a property combine this level of privacy, space, outdoor living, and iconic marina views. For the buyer seeking a truly distinctive Cabo residence, this is an opportunity that deserves attention.As an added bonus, the seller is offering financing for up to 50% of the purchase price--making it easier than ever to secure your place in one of Cabo's most iconic waterfront locations. Let the seller finance half of your new Cabo lifestyle while you begin enjoying everything this remarkable property has to offer.",
+  "name": "Tesoro Casa Bajalla 48",
+  "featured": false
+ },
+ {
+  "mls": "26-2820",
+  "price": 779000,
+  "title": "Rio Balsas, Villa Ballena, Todos Santos, San Sebastian, Local",
+  "beds": 4,
+  "baths": "3 full baths, 0 half baths",
+  "living": "338 m2 / 3,636.88 sq ft",
+  "lot": "1,550.26 m2",
+  "area": "Pacific North",
+  "community": "Todos Santos",
+  "begin": "June 11, 2026",
+  "year": null,
+  "style": "Colonial",
+  "view": null,
+  "photos": 37,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260811202321474429000000-o.jpg",
+  "desc": "Nestled in the highly sought-after San Sebastian area of Todos Santos, this exceptional property offers the perfect blend of traditional Baja charm, comfort, and coastal living. Just one block from the beach, you'll enjoy the soothing sound of crashing waves throughout the day and evening, creating a peaceful backdrop unlike any other. The main residence is a spacious three-bedroom, two-bath home featuring a stunning traditional Mexican palapa roof that captures the authentic character of Baja. Designed for both comfortable living and entertaining, the home includes generous living and dining spaces, a dedicated laundry area, and ample storage. Outdoor living takes center stage with an expansive covered entertaining area complete with dining and lounge spaces, barbecue, pizza oven, and sparkling swimming pool--perfect for gathering with family and friends while enjoying the area's year-round climate. Adding tremendous value and flexibility is the oversized two-car garage, large enough for vehicles, toys, workshop space, and additional storage. Above the garage sits a private studio casita with a full bath, covered patio, and outdoor kitchen area, making it ideal for guests, rental income, an artist's retreat, or a home office. Located in one of Todos Santos' most established and tranquil neighborhoods, surrounded by well-maintained homes and longtime residents, this property offers the rare opportunity to enjoy authentic Baja living just steps from the Pacific Ocean. Wake up to ocean breezes, fall asleep to the sound of the surf, and experience the relaxed lifestyle that makes San Sebastian one of Todos Santos' most treasured coastal communities.",
+  "name": "Villa Ballena",
+  "featured": false
+ },
+ {
+  "mls": "26-4593",
+  "price": 49500,
+  "title": "Calle sin nombre, Lote 1076, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Mountain",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,292 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "November 2, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 13,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20261031013012389830000000-o.jpg",
+  "desc": "Enjoy beautiful mountain views from this 1,292 m2 lot conveniently located off the highway.with easy access. Close to power.There's room to envision a home, gardens, and ourdoor spaces that make the most of the mountain backdrop. A great opportunity to create your own corner of Baja at an accomodating price.",
+  "name": "Lote 1076",
+  "featured": false
+ },
+ {
+  "mls": "26-4590",
+  "price": 49500,
+  "title": "calle, Lot 1202, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Mountain",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,250 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "November 2, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 12,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20261031004139818577000000-o.jpg",
+  "desc": "Beautiful mountain views. Close to Highway. One of the best priced lots offered at $49,500 USD. This flat build ready 1,250 m2 lot offers beautiful mountain views with convenient close to the highway location.. Plenty of room to plan your family home, outdoor living areas and gardens. It's a practical choice for anyone looking for usable land at an approachable price. Full of possibility, an affordable place to bring your Baja plans to life.",
+  "name": "Lot 1202",
+  "featured": false
+ },
+ {
+  "mls": "26-3162",
+  "price": 499000,
+  "title": "Maquina Azul, Casa Diamond in the Rough, Todos Santos, Las Tunas, Ocean",
+  "beds": 3,
+  "baths": "2 full baths, 1 half bath",
+  "living": "441 m2 / 4,745.16 sq ft",
+  "lot": "2,028.25 m2",
+  "area": "Pacific North",
+  "community": "Todos Santos",
+  "begin": "July 10, 2026",
+  "year": "2021",
+  "style": "Two Story",
+  "view": null,
+  "photos": 67,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260817221352121333000000-o.jpg",
+  "desc": "Bring your vision and finish the dream. Located on the mountainside of the road in sought-after Las Tunas, Todos Santos, this expansive three-bedroom, two-and-a-half-bath home is approximately 80% complete and already packed with the features that are difficult--and expensive--to recreate. Panoramic ocean views stretch across the horizon, while beautiful Baja breezes flow through endless patios and terraces designed for true indoor-outdoor living. The extensive rooftop takes the views to another level, offering incredible space for entertaining, sunset dinners, or creating your own private rooftop retreat. Need space? You found it. A massive oversized four-car garage provides room for vehicles, Baja toys, a workshop, storage--or all of the above. The property is fully fenced and gated, offering privacy and plenty of room to make this home completely your own. And there's more. The sale includes a separate 1,000-square-meter corner parcel, opening the door for a guest house, additional residence, investment project, or simply holding valuable land in one of Todos Santos' most desirable areas. This is not a cookie-cutter home. It's an opportunity to complete, customize, and create something truly special--with the views, space, location, and major construction already in place. Finish it your way and make Las Tunas home.",
+  "name": "Casa Diamond in the Rough",
+  "featured": false
+ },
+ {
+  "mls": "26-2298",
+  "price": 269000,
+  "title": "Calle Casa Viejos, Rancho Nuevo Lote de la Sierra, Pescadero, Rancho Nuevo, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "2,494.8 m2",
+  "area": "Pacific South",
+  "community": "Pescadero",
+  "begin": "May 8, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 21,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260510204802403769000000-o.jpg",
+  "desc": "SELLER FINANCING AND WATER ASSESSMENT PAID! One of the only available lots with water priveledges. Beautiful private estate lot in Rancho Nuevo. One of only a handful of almost 2,500 m2 lots located on the south side of the development. These rare lots border the large arroyo below, allowing for open private use with unobstructed views of the Pacific Ocean. Rancho Nuevo is a tranquil, gated neighborhood just south of Cerritos located on a beautiful uninhabited beach. The development has its own water source and employes a private security firm. If you are looking for a quiet, well-maintained neighborhood just a few minutes' drive to shopping, restaurants, and entertainment Rancho Nuevo is a must-see development. One of the best values and locations on the Pacific side of Baja California Sur.",
+  "name": "Casa Viejos Lot",
+  "featured": false
+ },
+ {
+  "mls": "25-5051",
+  "price": 255000,
+  "title": "La Cachora Lot 3, Quinta Pacifica, Todos Santos, La Cachora",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,649.18 m2",
+  "area": "Todos Santos",
+  "community": "Todos Santos",
+  "begin": "November 8, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 21,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20251111135908879993000000-o.jpg",
+  "desc": "Imagine building your dream home just steps from the beach in the tranquil La Cachora neighborhood of Todos Santos. Surrounded by swaying palms, orchards, and lush greenery, this flat, cleared, and fenced lot offers both privacy and convenience. Water, electricity, and a sewer hookups are ready at the lot line, making it easy to start your project. As the largest of three contiguous lots totaling over 1 acre, there's plenty of space for a spacious family home, a vacation retreat, or a serene Baja getaway. Enjoy morning walks to downtown cafes, the renowned 4 Vientos Yoga Studio, local restaurants, and the beach experience the relaxed charm and natural beauty that make Southern Baja so special.",
+  "name": "La Cachora Lot 3",
+  "featured": false
+ },
+ {
+  "mls": "26-2494",
+  "price": 399000,
+  "title": "Casa Brumbelow 14 A, Pescadero, Cerritos Sunrise, Local",
+  "beds": 2,
+  "baths": "2 full baths, 0 half baths",
+  "living": "175 m2 / 1,883 sq ft",
+  "lot": "not shown (condominium)",
+  "area": "Pacific South",
+  "community": "Pescadero",
+  "begin": "May 20, 2026",
+  "year": "2018",
+  "style": null,
+  "view": null,
+  "photos": 38,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260521232342988485000000-o.jpg",
+  "desc": "SELLER FINANCING!!! Just two blocks from the famous Cerritos Beach, this beautifully upgraded lower-level two-bedroom, two-bath condominium offers the perfect blend of comfort, functionality, and relaxed Baja living. Located within the highly desirable Phase Three section of the community, residents enjoy access to a separate meticulously maintained pool surrounded by lush, tranquil grounds that create a true resort-style atmosphere. This rare unit stands apart from the rest, featuring one of only two private backyard spaces in the development -- ideal for additional storage, vehicle parking, surfboards, ATVs, or creating your own private outdoor retreat. The spacious enclosed front patio provides an inviting extension of the living area with added privacy and year-round indoor-outdoor enjoyment. Inside, the condo has been thoughtfully upgraded with a modernized kitchen featuring quality cabinetry, dishwasher, wine refrigerator, and a state-of-the-art water filtration system. Numerous additional improvements throughout the home add comfort, style, and convenience, making this property move-in ready and ideal as a full-time residence, vacation getaway, or income-producing rental property. Additional community amenities include beautifully landscaped grounds, on-site laundry facilities, and a peaceful atmosphere just moments from restaurants, shopping, and the swimmable surf and sandy shoreline of Cerritos Beach.",
+  "name": "Casa Brumbelow 14 A",
+  "featured": false
+ },
+ {
+  "mls": "25-4587",
+  "price": 95000,
+  "title": "Beach Lot 3, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,805 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "October 16, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 16,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260915215205055839000000-o.jpg",
+  "desc": "Prime lot just steps from the world-famous Cerritos surf beach. This exceptional property offers direct beach access to one of the only swimmable beaches on the Pacific Ocean, the perfect location to build a sleek elegant design home, boutique resort, or private compound. Set within a small, charming community with a beachfront restaurant, world-class surfing, swimming, ATVing, and endless sunsets, this lot captures the essence of Baja coastal living. Conveniently located only ten minutes from the magical Pueblo Mágico of Todos Santos and forty-five minutes from Cabo San Lucas, it offers the ideal blend of tranquility and accessibility--an extraordinary opportunity in the heart of Cerritos Beach.",
+  "name": "Beach Lot 3",
+  "featured": false
+ },
+ {
+  "mls": "26-1934",
+  "price": 319000,
+  "title": "calle sin nombre, Ranchito Serenidad, Todos Santos, La Pastora, Ocean",
+  "beds": 1,
+  "baths": "1 full bath, 0 half baths",
+  "living": "100 m2 / 1,076 sq ft",
+  "lot": "10,000 m2",
+  "area": "Pacific North",
+  "community": "Todos Santos",
+  "begin": "April 17, 2026",
+  "year": "2024",
+  "style": "Ranch",
+  "view": null,
+  "photos": 44,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260420195255754662000000-o.jpg",
+  "desc": "Set in the tranquil and highly sought-after Las Playitas area, this exceptional 10,000 m² property offers a rare opportunity to complete a thoughtfully designed estate with substantial infrastructure already in place. Elevated to capture truly breathtaking, unobstructed ocean views, the setting is both serene and inspiring--perfect for a private retreat or luxury residence. The property features partially completed construction built to high-end American standards, reflecting quality craftsmanship and attention to detail. A dramatic entryway sets the tone for what is envisioned as a striking architectural residence, supported by a full set of professional architectural drawings ready to bring the project to completion Significant groundwork has already been completed, including installed septic system, irrigation infrastructure, and electrical wiring--saving both time and cost for the next owner. An existing casita with a kitchen and full bathroom provides immediate livability or on-site accommodations during construction. Surrounded by mature, established gardens, the property offers a lush, private environment that blends seamlessly with the natural beauty of Las Playitas. This is a unique opportunity to step into a nearly ready vision and finish a high-quality home in one of the area's most peaceful coastal enclaves, all while enjoying sweeping ocean views and exceptional potential.",
+  "name": "Cerritos Casita",
+  "featured": false
+ },
+ {
+  "mls": "25-2982",
+  "price": 1950000,
+  "title": "Cerritos Beachfront, Cerritos Beachfront Acre, Pescadero, Cerritos, Oceanfront",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "4,014.08 m2",
+  "area": "Pacific South",
+  "community": "Pescadero",
+  "begin": "June 6, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 31,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20250616190513266905000000-o.jpg",
+  "desc": "SELLER FINANCING AVAILABLE! Cerritos Beachfront Acre. 65 meters of pristine beachfront in the heart of Cerritos. One of the last true beachfront opportunities. Perfect for those looking to build a luxury residence, eco-retreat, or boutique development with vision. This property offers privacy, stunning views, and sits in a fast-growing area with high long-term demand. A rare canvas by the ocean to bring your project to life. Looking for a larger development opportunity? Consider adding the additional 20,000 m2 contiguous lot that is currently being subdivided into half acre lots.",
+  "name": "Cerritos Beachfront Acre",
+  "featured": true
+ },
+ {
+  "mls": "26-4053",
+  "price": 150000,
+  "title": "Calle sin nombre, Lot 1834, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Mountain",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "2,119 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "September 28, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 19,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260925210224967955000000-o.jpg",
+  "desc": "Discover the perfect spot to build your Baja dream home on this spacious 2,119 m² lot in the heart of Cerritos. The property is flat and easily buildable, offering plenty of room for a custom home, pool, outdoor entertaining areas, gardens, and more. Ideally located just a 5-minute walk to the beach, you can enjoy the sand, surf, and spectacular Pacific sunsets within minutes of your front door. Shopping, restaurants, markets, and other local conveniences are also nearby, providing the perfect combination of beach living and everyday accessibility. With its generous size, level terrain, and excellent location, this property is a great opportunity for a full-time residence, vacation home, or investment property in one of the most desirable areas of Cerritos.",
+  "name": "Lot 1834",
+  "featured": false
+ },
+ {
+  "mls": "26-4021",
+  "price": 80000,
+  "title": "Calle sin nombre, Lote 1603, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "2,000 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "September 28, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 21,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260925194737928874000000-o.jpg",
+  "desc": "Prime 2,000 m2 lot just minutes from everything Cerritos offers. Build your Baja dream on this generous 2,000 m2 (approximately half-acre) lot in the heart of Cerritos. Ideally located within an easy 15-minute walk to Cerrito Beach, restaurants and shopping. This property offers the perfect combination of space, convenience and the relaxed Cerritos lifestyle. The level terrain provides an excellent canvas for a custom home, vacation retreat, or investment property, with plenty of space for a quest house, pool, outdoor entertaining areas, gardens and ample parking. An excellent opportunity to own a substantial piece of land in one of Baja's most popular beach communities.",
+  "name": "Lote 1603",
+  "featured": false
+ },
+ {
+  "mls": "26-4020",
+  "price": 120000,
+  "title": "calle sin nombre, Lote 1453, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Territory",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "2,000 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "September 28, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 17,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260925193619440257000000-o.jpg",
+  "desc": "Prime 2,000 m2 lot in the Heart of Cerritos! Location, size and convenience come together with this spacious 2,000 m2 (approximately half-acre) lot ideally situated in the heart of Cerritos. Enjoy the rare convenience of being just a two minute walk to the local grocery store, hardware store and Shaka's cantina, while the sand and surf of beautiful Cerritos Beach are only a 5 minute walk away. The level terrain provides an excellent building site with plenty of room to create a private Baja retreat, full-time residence, vacation home, or investment property. With approximately half an acre, there is ample space for a main residence, quest casita, pool, outdoor entertaining areas, gardens and parking. Build your dream home in one of the most convenient locations in Cerritos-close to everything, yet with enough land to create your own private Oasis.",
+  "name": "Lote 1453",
+  "featured": false
+ },
+ {
+  "mls": "25-3861",
+  "price": 199500,
+  "title": "Calle sin nombre, Calicora Lot 3, Pescadero, The Tequila Ranch, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "2,000 m2",
+  "area": "Pacific South",
+  "community": "Pescadero",
+  "begin": "August 6, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 34,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20250809174620577787000000-o.jpg",
+  "desc": "Seller motivated. Bring all Offers! 2,000 m2 Estate lot in the exclusive Tequila Ranch Beachfront,, Gated Subdivision located in Prestigious community of El Pescadero. Beautiful level lot ready to build your dream home. Perfect for family compound. Electric and water to the site. Close to everything, shopping, restaurants and entertainment. Only a 5 minute drive to the famous swimmable Cerritos Surf Beach and just steps from your front door to the tranquil San Pedrito beach. It doesn't get any better than this opportunity for a large lot in Tequila Ranch.",
+  "name": "Calicora Lot 3",
+  "featured": false
+ },
+ {
+  "mls": "25-3862",
+  "price": 249500,
+  "title": "calle sin nombre, Calicora Lot 4, Pescadero, Tequila Ranch, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "2,696.66 m2",
+  "area": "Pacific South",
+  "community": "Pescadero",
+  "begin": "August 6, 2025",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 26,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20250809180206373111000000-o.jpg",
+  "desc": "Seller motivated. Bring all offers! Large 2,696 m2 estate lot inside the gated community of Tequila Ranch in beautiful Pescadero. Just steps to the tranquil San Pedrito beach. Power and water to site. Close to everything, shopping, restaurants and entertainment. Just a 5 minute drive to the famous swimmable Cerritos Surf beach. Perfect lot, perfect location, and a perfect quiet beach.",
+  "name": "Calicora Lot 4",
+  "featured": false
+ },
+ {
+  "mls": "26-2467",
+  "price": 49000,
+  "title": "calle sin nombre, Lote Battistoni, Todos Santos, Las Tunas, Mountain",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,000 m2",
+  "area": "Todos Santos",
+  "community": "Todos Santos",
+  "begin": "May 20, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 47,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260521172556923972000000-o.jpg",
+  "desc": "Perched high above the coveted Las Tunas area, this exceptional 1,000-square-meter homesite captures sweeping views of the Pacific Ocean, surrounding mountains, and the tranquil desert landscape that has made this neighborhood one of the most sought-after locations near Todos Santos. Situated in a peaceful setting with electricity close by, this prime parcel offers the perfect opportunity to build your dream home, vacation retreat, or investment property in an area known for its upscale homes, natural beauty, and relaxed Baja lifestyle. Enjoy cooling ocean breezes, dramatic sunsets, and a sense of privacy while still being conveniently close to beaches, dining, shopping, and the vibrant charm of Todos Santos. Priced aggressively at just $55,000 USD, this is an incredible value in today' market. Seller is motivated and ready to sell -- don't miss the chance to secure a piece of paradise in beautiful Las Tunas.",
+  "name": "Lote Battistoni",
+  "featured": false
+ },
+ {
+  "mls": "26-2607",
+  "price": 96000,
+  "title": "calle sin nombre, Las Playitas Lots 4 & 5, Todos Santos North, Las Playitas, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "3,829.46 m2, two adjoining lots of 1,914.73 m2 each",
+  "area": "Todos Santos North",
+  "community": "(not recorded separately from the location line)",
+  "begin": "May 27, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 30,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260528201718400787000000-o.jpg",
+  "desc": "Land offering in (not recorded separately from the location line). Lot: 3,829.46 m2, two adjoining lots of 1,914.73 m2 each; Community: (not recorded separately from the location line). Contact Cyndi Williams for full details, maps and a private showing.",
+  "name": "Las Playitas Lots 4 & 5",
+  "featured": false
+ },
+ {
+  "mls": "26-2299",
+  "price": 169500,
+  "title": "Casa Viejos, Rancho Nuevo Lote Hildebrand, Pescadero, Rancho Nuevo, Mountain",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,250 m2",
+  "area": "Pacific South",
+  "community": "Pescadero",
+  "begin": "May 8, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 15,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260510211509733214000000-o.jpg",
+  "desc": "Beautiful private estate lot in Rancho Nuevo. 1,250 m2 with water rights, septic installed and walled entrance. Rancho Nuevo is a tranquil, gated neighborhood just south of Cerritos located on a beautiful uninhabited beach. The development has its own water source and employes a private security firm. If you are looking for a quiet, well-maintained neighborhood just a few minutes' drive to shopping, restaurants, and entertainment Rancho Nuevo is a must-see development. One of the best values and locations on the Pacific side of Baja California Sur.",
+  "name": "Casa Viejos",
+  "featured": false
+ },
+ {
+  "mls": "26-1509",
+  "price": 77000,
+  "title": "calle sin nombre, Lote 2011, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Ocean",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "2,000 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "March 24, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 17,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260327200227716503000000-o.jpg",
+  "desc": "This 2,000 square meter parcel offers a straightforward and practical opportunity in the growing Cerritos area. The lot is predominantly level, making it easy to build, with ocean views achievable from a second-story design. Located just a short distance from existing infrastructure, power is nearby.The surrounding landscape features natural desert terrain, creating a low-maintenance setting that blends with the Baja environment. While not positioned directly on the beach, the property benefits from its proximity to Cerritos and the Pacific, offering a quiet, no-frills setting ideal for a primary residence, vacation home, or long-term hold. A solid, buildable lot in an area that continues to see steady growth and demand.",
+  "name": "Lote 2011",
+  "featured": false
+ },
+ {
+  "mls": "26-1488",
+  "price": 80000,
+  "title": "calle sin nombre, Lote 801, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Mountain",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "1,830 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "March 24, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 20,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260326180847968684000000-o.jpg",
+  "desc": "Perched high above Cerritos on one of the area's most prominent hillsides, this 1,830 square meter lot offers a truly elevated perspective--both literally and figuratively. From this rare vantage point, enjoy sweeping panoramic views that stretch across the Sierra de la Laguna mountains and out to the distant Pacific Ocean, where sunsets paint the horizon in dramatic color. This is a property defined by its height and privacy. Set far above the bustle of the beach below, it offers a sense of seclusion and tranquility that is increasingly hard to find. The access road requires four-wheel drive, reinforcing the off-the-grid, adventurous nature of the location and helping preserve the peaceful surroundings. Currently without services, this parcel is ideal for those seeking a self-sufficient lifestyle or a forward-thinking build designed around solar, water storage, and sustainable living. The natural terrain and commanding elevation make it a spectacular setting for a custom retreat that embraces the raw beauty of Baja. If you're looking for unmatched views, privacy, and a true escape above Cerritos, this hilltop property delivers a one-of-a-kind opportunity to create something extraordinary",
+  "name": "Lote 801",
+  "featured": false
+ },
+ {
+  "mls": "26-1487",
+  "price": 99000,
+  "title": "Sauspedes (main access road), Lote 1475, Cerritos, Pacific South, Pescadero/Cerritos, Cerritos, Mountain",
+  "beds": null,
+  "baths": "not shown",
+  "living": "not shown",
+  "lot": "2,000 m2",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "March 24, 2026",
+  "year": null,
+  "style": null,
+  "view": null,
+  "photos": 20,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20260326171055800763000000-o.jpg",
+  "desc": "Positioned along the main access road to Cerritos Beach, this spacious 2,000 square meter corner lot offers outstanding visibility, easy access, and strong presence in one of the area's most desirable coastal corridors. Its prime frontage location ensures convenient entry and seamless accessibility, making it ideal for a private residence or vacation home.The property features a gentle slope, providing both character and opportunity--perfect for a thoughtfully designed home that captures elevation and natural surroundings. From the upper portion of the lot, enjoy views stretching out to the Pacific Ocean, along with refreshing coastal breezes and beautiful sunsets. Power is available in the road, adding convenience for future development. As a corner parcel, the lot also offers flexibility in layout, access and design options.",
+  "name": "Lote 1475",
+  "featured": false
+ },
+ {
+  "mls": "25-667",
+  "price": 325000,
+  "title": "20 Villas Cerritos Beach 20 20, Villa de Cerritos 20, Pescadero, Villas de Cerritos Beach, Local",
+  "beds": 2,
+  "baths": "2 full baths, 0 half baths",
+  "living": "172.79 m2 / 1,859.22 sq ft",
+  "lot": "not shown (condominium/community home",
+  "area": "Pacific South",
+  "community": "Pescadero/Cerritos",
+  "begin": "February 3, 2025",
+  "year": "2016",
+  "style": "2 Floors",
+  "view": null,
+  "photos": 27,
+  "photo": "https://cdn.resize.sparkplatform.com/cab/1280x1024/true/20250204191524195846000000-o.jpg",
+  "desc": "Explore Villas de Cerritos 20 - Your Perfect Home Near the Sea. This delightful 2-bedroom, 2-bathroom home is located in the highly desirable Villas de Cerritos Beach community. With a rustic and welcoming design, this two-story residence offers the ideal combination of comfort and charm, making it a perfect getaway for those looking for peace or a smart investment property. The home features a generous rooftop terrace, perfect for relaxing, soaking in Baja's stunning sunsets, and enjoying quality time with family and friends. Just a short walk to the famous Playa Cerritos, this property is an absolute gem for surf lovers and beach enthusiasts. Villas de Cerritos Beach is a safe and lively community, offering outstanding amenities. Residents have access to a heated pool, two soothing jacuzzis, and an on-site restaurant, all supported by 24/7 staff and security for added peace of mind. Whether you're looking for a charming full-time home, a peaceful vacation retreat, or a high-potential rental property, Villas de Cerritos 20 offers a unique chance to embrace the Cerritos Beach lifestyle.\"\n    \n    ---\n    \n    Completeness check: all 34 listings (26-1352, 25-4689, 25-4585, 26-3942, 25-4584, 25-4596, 25-4595, 25-4592, 25-4591, 25-4588, 26-4654, 26-2723, 26-2820, 26-4593, 26-4590, 26-3162, 26-2298, 25-5051, 26-2494, 25-4587, 26-1934, 25-2982, 26-4053, 26-4021, 26-4020, 25-3861, 25-3862, 26-2467, 26-2607, 26-2299, 26-1509, 26-1488, 26-1487, 25-667) are covered above, each with its MLS number, title/address, price, status, bedrooms/bathrooms, living area and lot size as shown, area/community/subdivision, full verbatim description, begin date, main photo URL and detail-page URL. No detail page failed to load. Two discrepancies in the portal's own data are flagged in place: listing #28's description states $55,000 while its list price is $49,000, and listing #23's main photo caption reads \"Lote 1831\" while the listing is Lot 1834. One correction to the working notes: listing #10's Last Modified is 3:48pm November 9, 2026 (the \"October 9",
+  "name": "Villas Cerritos Beach 20",
+  "featured": false
+ }
+];
+var WA = "526241588650";
+
+/* ===== shared database (Supabase, table re_demo_state) =====
+   Doc: { accounts: [{u, pass}], overrides: { mls: {price, status, featured, note} } } */
+var doc = { accounts: [{u:"cyndi", pass:null}, {u:"david", pass:null}], overrides: {} };
+var admin = sessionStorage.getItem("cd_admin") || "";
+function cfg(){ var c = window.OS_CONFIG || {}; return (c.sbUrl && c.sbKey) ? c : null; }
+function hdrs(){ var c = cfg(); return { "apikey": c.sbKey, "Authorization": "Bearer " + c.sbKey, "Content-Type": "application/json" }; }
+async function pullDoc(){
+  var c = cfg(); if(!c) { try{ var r = localStorage.getItem("cd_doc"); if(r) doc = JSON.parse(r); }catch(e){} return; }
+  try{
+    var r = await fetch(c.sbUrl + "/rest/v1/re_demo_state?id=eq.1&select=doc", { headers: hdrs() });
+    if(r.ok){ var rows = await r.json(); if(rows && rows[0] && rows[0].doc && rows[0].doc.overrides){ doc = rows[0].doc; } else { pushDoc(); } }
+  }catch(e){}
+}
+async function pushDoc(){
+  var c = cfg();
+  try{ localStorage.setItem("cd_doc", JSON.stringify(doc)); }catch(e){}
+  if(!c) return;
+  try{ await fetch(c.sbUrl + "/rest/v1/re_demo_state?id=eq.1", { method: "PATCH", headers: Object.assign(hdrs(), { "Prefer": "return=minimal" }), body: JSON.stringify({ doc: doc, updated_at: new Date().toISOString() }) }); }catch(e){}
+}
+
+/* ===== data merge ===== */
+function merged(){
+  return LISTINGS.map(function(L){
+    var o = (doc.overrides || {})[L.mls] || {};
+    var m = Object.assign({}, L);
+    if(o.price) m.price = o.price;
+    m.status = o.status || "Active";
+    m.featured = (o.featured !== undefined) ? o.featured : !!L.featured;
+    m.note = o.note || "";
+    return m;
+  });
+}
+function money(n){ return "$" + Number(n).toLocaleString("en-US"); }
+function esc(s){ return String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+function waLink(L){ return "https://wa.me/" + WA + "?text=" + encodeURIComponent("Hello Cyndi, I am interested in " + L.name + " (MLS #" + L.mls + ") listed at " + money(L.price) + ". Is it still available?"); }
+
+/* ===== render ===== */
+function cardHTML(L){
+  var badge = L.status !== "Active" ? '<span class="badge ' + (L.status === "Sold" ? "sold" : "pend") + '">' + esc(L.status) + '</span>'
+             : (L.featured ? '<span class="badge">Featured</span>' : '');
+  var specs = [];
+  if(L.beds) specs.push(L.beds + " bd");
+  if(L.baths) specs.push(L.baths.replace(" full baths", " ba").replace(" full bath", " ba"));
+  if(L.living) specs.push(L.living.split(";")[0]);
+  if(!L.beds && L.lot) specs.push("Lot " + L.lot);
+  return '<article class="card"><div class="ph"><img loading="lazy" src="' + esc(L.photo) + '" alt="' + esc(L.name) + '">' + badge + '</div>' +
+    '<div class="bd"><h3>' + esc(L.name) + '</h3><div class="price">' + money(L.price) + '</div>' +
+    '<div class="specs">' + esc(specs.join(" · ")) + '</div>' +
+    '<div class="specs">' + esc(L.area || "") + (L.community ? " · " + esc(L.community) : "") + '</div>' +
+    (L.note ? '<div class="specs"><i>' + esc(L.note) + '</i></div>' : '') +
+    '<div class="mls">MLS #' + esc(L.mls) + '</div>' +
+    '<div class="row"><button class="btn" onclick="openDetail(\'' + L.mls + '\')">Details</button>' +
+    '<a class="btn solid" target="_blank" rel="noopener" href="' + waLink(L) + '">WhatsApp</a>' +
+    (admin ? '<button class="btn dark" onclick="openEdit(\'' + L.mls + '\')">Edit</button>' : '') +
+    '</div></div></article>';
+}
+function render(){
+  var all = merged();
+  var feat = all.filter(function(L){ return L.featured; });
+  document.getElementById("featuredGrid").innerHTML = feat.map(cardHTML).join("") || '<p style="text-align:center;color:var(--muted)">No featured listings right now.</p>';
+  var area = document.getElementById("fArea").value, maxp = document.getElementById("fPrice").value,
+      beds = document.getElementById("fBeds").value, sort = document.getElementById("fSort").value;
+  var list = all.filter(function(L){
+    if(area && L.area !== area) return false;
+    if(maxp && L.price > Number(maxp)) return false;
+    if(beds && !(L.beds >= Number(beds))) return false;
+    return true;
+  });
+  list.sort(function(a, b){
+    var sa = a.status === "Sold" ? 1 : 0, sb = b.status === "Sold" ? 1 : 0;
+    if(sa !== sb) return sa - sb;
+    if(sort === "lo") return a.price - b.price;
+    if(sort === "hi") return b.price - a.price;
+    return (b.featured - a.featured) || (b.price - a.price);
+  });
+  document.getElementById("grid").innerHTML = list.map(cardHTML).join("") || '<p style="text-align:center;color:var(--muted)">No listings match. Try widening the filters.</p>';
+  document.getElementById("countLine").textContent = "Showing " + list.length + " of " + all.length + " listings";
+  document.getElementById("adminBar").classList.toggle("hidden", !admin);
+  if(admin) document.getElementById("adminName").textContent = admin;
+}
+
+/* ===== detail + edit modals ===== */
+var scrim = document.getElementById("scrim"), modal = document.getElementById("modal");
+function closeModal(){ scrim.classList.remove("open"); }
+scrim.addEventListener("click", function(e){ if(e.target === scrim) closeModal(); });
+function findL(mls){ var a = merged(); for(var i = 0; i < a.length; i++) if(a[i].mls === mls) return a[i]; return a[0]; }
+function openDetail(mls){
+  var L = findL(mls);
+  var rows = [["Price", money(L.price)], ["Status", L.status], ["Area", L.area || ""], ["Community", L.community || ""]];
+  if(L.beds) rows.push(["Bedrooms", L.beds]);
+  if(L.baths) rows.push(["Bathrooms", L.baths]);
+  if(L.living) rows.push(["Living area", L.living]);
+  if(L.lot) rows.push(["Lot size", L.lot]);
+  if(L.year) rows.push(["Year built", L.year]);
+  if(L.style) rows.push(["Style", L.style]);
+  if(L.view) rows.push(["View", L.view]);
+  if(L.photos) rows.push(["Photos", L.photos + " on the MLS listing"]);
+  rows.push(["MLS #", L.mls]);
+  if(L.begin) rows.push(["Listed", L.begin]);
+  modal.innerHTML = '<button class="x" onclick="closeModal()">&times;</button>' +
+    '<img class="heroimg" src="' + esc(L.photo) + '" alt="' + esc(L.name) + '">' +
+    '<div class="in"><h3>' + esc(L.name) + '</h3><div class="price">' + money(L.price) + '</div>' +
+    (L.note ? '<p><i>' + esc(L.note) + '</i></p>' : '') +
+    '<table class="spec-table">' + rows.map(function(r){ return '<tr><td>' + esc(r[0]) + '</td><td>' + esc(r[1]) + '</td></tr>'; }).join("") + '</table>' +
+    '<div class="desc">' + esc(L.desc) + '</div>' +
+    '<div class="row" style="display:flex;gap:8px;margin-top:16px"><a class="btn solid" target="_blank" rel="noopener" href="' + waLink(L) + '">Ask on WhatsApp</a>' +
+    '<a class="btn" href="tel:+526241588650">Call Cyndi</a></div></div>';
+  scrim.classList.add("open");
+}
+function openEdit(mls){
+  var L = findL(mls);
+  modal.innerHTML = '<button class="x" onclick="closeModal()">&times;</button><div class="in">' +
+    '<h3>Edit: ' + esc(L.name) + '</h3><p style="color:var(--muted)">MLS #' + esc(L.mls) + '. Changes save to the shared database and show for every visitor.</p>' +
+    '<form class="form" id="editForm">' +
+    '<label>Price (USD)</label><input id="ePrice" type="number" value="' + L.price + '">' +
+    '<label>Status</label><select id="eStatus"><option' + (L.status === "Active" ? " selected" : "") + '>Active</option><option' + (L.status === "Pending" ? " selected" : "") + '>Pending</option><option' + (L.status === "Sold" ? " selected" : "") + '>Sold</option></select>' +
+    '<label>Featured listing</label><select id="eFeat"><option value="1"' + (L.featured ? " selected" : "") + '>Yes</option><option value="0"' + (!L.featured ? " selected" : "") + '>No</option></select>' +
+    '<label>Note shown on the card</label><input id="eNote" type="text" value="' + esc(L.note) + '" placeholder="For example: New price, seller financing">' +
+    '<div style="margin-top:16px;display:flex;gap:8px"><button class="btn solid" type="submit">Save changes</button><button class="btn" type="button" onclick="closeModal()">Cancel</button></div>' +
+    '</form></div>';
+  scrim.classList.add("open");
+  document.getElementById("editForm").addEventListener("submit", async function(e){
+    e.preventDefault();
+    if(!doc.overrides) doc.overrides = {};
+    doc.overrides[mls] = { price: Number(document.getElementById("ePrice").value) || L.price,
+      status: document.getElementById("eStatus").value,
+      featured: document.getElementById("eFeat").value === "1",
+      note: document.getElementById("eNote").value.trim() };
+    await pushDoc(); closeModal(); render();
+  });
+}
+
+/* ===== admin login ===== */
+document.getElementById("adminLink").addEventListener("click", function(e){
+  e.preventDefault();
+  if(admin){ openLogout(); return; }
+  modal.innerHTML = '<button class="x" onclick="closeModal()">&times;</button><div class="in">' +
+    '<h3>Admin login</h3><p style="color:var(--muted)">For Cyndi and David. First time you sign in with your username, the password you type becomes yours.</p>' +
+    '<form class="form" id="loginForm"><label>Username</label><input id="liUser" autocomplete="username">' +
+    '<label>Password</label><input id="liPass" type="password" autocomplete="current-password">' +
+    '<p id="liErr" style="color:var(--sold)"></p>' +
+    '<div style="margin-top:14px"><button class="btn solid" type="submit">Sign in</button></div></form></div>';
+  scrim.classList.add("open");
+  document.getElementById("loginForm").addEventListener("submit", async function(ev){
+    ev.preventDefault();
+    var u = document.getElementById("liUser").value.trim().toLowerCase();
+    var p = document.getElementById("liPass").value;
+    var acct = null;
+    (doc.accounts || []).forEach(function(a){ if(a.u === u) acct = a; });
+    if(!acct){ document.getElementById("liErr").textContent = "That username is not on the list."; return; }
+    if(acct.pass === null){ acct.pass = p; await pushDoc(); }
+    else if(acct.pass !== p){ document.getElementById("liErr").textContent = "Wrong password."; return; }
+    admin = u; sessionStorage.setItem("cd_admin", u);
+    closeModal(); render();
+  });
+});
+function openLogout(){ admin = ""; sessionStorage.removeItem("cd_admin"); render(); }
+document.getElementById("logoutBtn").addEventListener("click", openLogout);
+
+/* ===== boot ===== */
+(function(){
+  var hero = LISTINGS.filter(function(L){ return L.mls === "25-2982"; })[0] || LISTINGS[0];
+  document.getElementById("heroImg").src = hero.photo;
+  var life = LISTINGS.filter(function(L){ return L.mls === "26-1352"; })[0] || LISTINGS[1];
+  document.getElementById("lifeImg").src = life.photo;
+  var areas = [];
+  LISTINGS.forEach(function(L){ if(L.area && areas.indexOf(L.area) === -1) areas.push(L.area); });
+  areas.sort();
+  var sel = document.getElementById("fArea");
+  areas.forEach(function(a){ var o = document.createElement("option"); o.value = a; o.textContent = a; sel.appendChild(o); });
+  ["fArea", "fPrice", "fBeds", "fSort"].forEach(function(id){ document.getElementById(id).addEventListener("change", render); });
+  render();
+  pullDoc().then(render);
+  setInterval(function(){ pullDoc().then(render); }, 45000);
+})();
+</script>
+</body>
+</html>
